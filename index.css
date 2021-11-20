@@ -1,0 +1,17 @@
+div p{color: aqua;}
+div h2{text-align: center;}
+p #test{color: blue;}
+h2 #test{color: brown;}
+.bbb{text-indent: 100px;}
+.bbb #test{color: azure;}
+p .bbb{color: black;}
+h2 .bbb{color: burlywood;}
+p .bbb #test{color: chartreuse;}
+.bbb, .xxx{text-indent: 10px;}
+p .bbb, h2 .xxx{color: coral;}
+p .bbb #test, p .xxx #test{color: crimson;}
+.fff{text-indent: 30px;}
+.fff p{color: darkblue;}
+p .fff{color: darkgoldenrod;}
+.fff .bbb{color: fuchsia;}
+.fff h2 .bbb{color: gray;}
