@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <style>
+        #test a:link, a:visited{
+            color: red;
+            text-decoration: none;
+        }
+        #test a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        .www a:link,.www a:visited{
+            color: blue;
+            text-decoration: underline;
+        }
+        .www a:hover{
+            text-decoration: none;
+        }
+        #test a.www{
+            color: rgb(122, 0, 126);
+        }
+        .eee a.www{
+            color: chocolate;
+        }
+        #priv a.abc{
+            color: black;
+            text-decoration: underline;
+        }
+        #priv a.bcd{
+            color: black;
+            text-decoration: line-through;
+        }
+        #priv a.cde{
+            color: black;
+            text-decoration: overline;
+        }
+        div.rrr{
+            border-width: 1px;
+            border-style: solid;
+            border-color: brown;
+            width: 100px;
+            height: 100px;
+        }
+        div.kkk{
+            border-width: 1px;
+            border-style: dotted;
+            border-color: blue;
+            width: 300px;
+            height: 100px;
+        }
+        div.zzz{
+            border-width: 1px;
+            border-style: dashed;
+            border-color: green;
+            width: 100px;
+            height: 100px;
+        }
+        div.xxx{
+            width: 300px;
+            height: 100px;
+            border-radius: 10px;
+            border-left: 1px solid black;
+            border-right: 1px solid green;
+            border-top: 1px solid blue;
+            border-bottom: 1px solid red;
+        }
+        div.ccc{
+            border-width: 1px;
+            border-style: dashed;
+            border-color: green;
+            width: 100px;
+            height: 100px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 10px;
+        }
+        div.vvv{
+            border-width: 1px;
+            border-style: dotted;
+            border-color: green;
+            width: 100px;
+            height: 100px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 15px;
+            border-top-right-radius: 10px;
+        }
+        div.vvv{
+            border-width: 1px;
+            border-style: solid;
+            border-color: red;
+            width: 50px;
+            height: 50px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="test">
+            <a href="https://github.com/KinShish/learning_task/tree/master/7">
+                Классные уроки
+            </a>
+        </div>
+        <div class="www">
+            <a href="https://vk.com">
+                Зайди в Вк!
+            </a>
+        </div>
+        <div id="test">
+            <a href="https://www.youtube.com" class="www">
+                Посмотри видео!
+            </a>
+        </div>
+        <div class="eee">
+            <a href="https://www.instagram.com" class="www">
+                Я там не сижу
+            </a>
+        </div>
+        <div id="priv">
+            <p><a href="https://mail.google.com" class="abc">
+                Привет, мир!
+            </a></p>
+            <p><a href="https://www.googleadservices.com" class="bcd">
+                Привет, мир!
+            </a></p>
+            <a href="https://yandex.ru/" class="cde">
+                Привет, мир!
+            </a>
+        </div>
+        <div class="rrr"></div> <p></p>
+        <div class="kkk"></div> <p></p>
+        <div class="zzz"></div> <p></p>
+        <div class="xxx"></div> <p></p>
+        <div class="ccc"></div> <p></p>
+        <div class="vvv"></div> <p></p>
+        <div class="ooo"></div> <p></p>
+    </body>
+</html>
